@@ -33,6 +33,19 @@ sudo ldconfig
 
 sudo apt-get install cmake git g++ libboost-all-dev python-dev
 
+Remaining sources:
+libstdc++-8 libgcc-8 libobjc-8 libclang1-6.0 libclang-common-6.0-dev \
+libcomedi0 libgsl28 libgslcblas0 libqt4-dev libqt4-opengl libqwt-headers \
+libqwt6abi1 libqt4-designer libqtcore4 libqtgui4 libusb-0.1-4 \
+python-numpy-abi9 libgdk-pixbuf2.0-0 python-cairo python-gobject-2 \
+python-wxversion libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5
+
+http://ftp.de.debian.org/debian/pool/main/z/zeromq3/libzmq5_4.3.1-4+deb10u2_amd64.deb
+http://ftp.de.debian.org/debian/pool/main/l/llvm-toolchain-6.0/libclang-6.0-dev_6.0.1-10_amd64.deb
+
+pkg-config
+
+
 http://ftp.de.debian.org/debian/pool/main/w/wxpython3.0/python-
 wxgtk3.0_3.0.2.0+dfsg-8_amd64.deb --output python-wxgtk3.deb
 http://ftp.de.debian.org/debian/pool/main/z/zeromq3/libzmq3-dev_4.3.1-4+deb10u2_amd64.deb
@@ -55,6 +68,7 @@ for package in downloads:
 	sudo dpkg -i --force-depends {package}
 
 sudo apt-mark hold doxygen libusb-dev libzmq3-dev libsdl1.2-dev libqt4-opengl-dev libgsl-dev libcppunit-dev libcomedi-dev libfftw3-dev libqwt-dev libzmq3-dev python-gtk2 sip-dev
+
 
 sudo pip2 install mako \
 numpy sphinx swig \
