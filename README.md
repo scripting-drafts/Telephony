@@ -15,9 +15,9 @@ sudo apt-get install -y \
     gr-osmosdr \
     libosmocore-dev
 
-git clone https://github.com/bkerler/gr-gsm
-cd gr-gsm
-mkdir build
+git clone https://github.com/bkerler/gr-gsm  
+cd gr-gsm  
+mkdir build  
 cd build
 cmake ..
 mkdir $HOME/.grc_gnuradio/ $HOME/.gnuradio/
