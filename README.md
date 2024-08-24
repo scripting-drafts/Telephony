@@ -18,10 +18,10 @@ sudo apt-get install -y \
 git clone https://github.com/bkerler/gr-gsm  
 cd gr-gsm  
 mkdir build  
-cd build
-cmake ..
-mkdir $HOME/.grc_gnuradio/ $HOME/.gnuradio/
-make
-sudo make install
-sudo ldconfig
+cd build  
+cmake ..  
+mkdir $HOME/.grc_gnuradio/ $HOME/.gnuradio/  
+make  
+sudo make install  
+sudo ldconfig  
 
