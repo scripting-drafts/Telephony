@@ -21,7 +21,16 @@ cd build
 cmake ..  
 make  
 sudo make install  
-  
+
+
+sudo apt install librtlsdr-dev  
+git clone https://github.com/aerospaceresearch/CalibrateSDR.git \
+cd CalibrateSDR \
+sudo pip3 install -r requirements.txt
+sudo python setup.py build
+sudo python setup.py install
+
+## Follow developer steps https://aerospaceresearch.net/?tag=calibratesdr  
   
   
 ----------------------
