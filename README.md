@@ -1,5 +1,30 @@
 # gr-gsm-kali
-
+Install without Airprobe
+  
+# Install SDRPlay API and SoapySDR last versions  
+  
+git clone git://git.osmocom.org/gr-osmosdr  
+cd gr-osmosdr/  
+mkdir build  
+cd build/  
+cmake .. -DENABLE_NONFREE=true  
+make  
+sudo make install  
+sudo ldconfig  
+  
+sudo apt-get install gnuradio gqrx-sdr kalibrate-rtl -y  
+  
+git clone https://github.com/pothosware/SoapySDRPlay.git
+cd SoapySDRPlay  
+mkdir build  
+cd build  
+cmake ..  
+make  
+sudo make install  
+  
+  
+  
+----------------------
 sudo apt-get update && \
 sudo apt-get install -y \
     cmake \
