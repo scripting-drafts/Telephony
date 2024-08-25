@@ -1,7 +1,7 @@
 # gr-gsm-kali
-Install without Airprobe
+# Without Airprobe
   
-# Install SDRPlay API and SoapySDR last versions  
+Install SDRPlay API and SoapySDR last versions  
   
 git clone git://git.osmocom.org/gr-osmosdr  
 cd gr-osmosdr/  
