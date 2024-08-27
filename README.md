@@ -33,8 +33,8 @@ sudo python setup.py install
 ## Follow developer steps https://aerospaceresearch.net/?tag=calibratesdr  
 
 ### Usage  
-(get parameters from GQRX)
-sudo grgsm_capture --args driver=sdrplay,serial=2237070C48,soapy=0 --ant 2 -f 935.9M  gsm_capture.cfile
+(get parameters from GQRX)  
+sudo grgsm_capture --args driver=sdrplay,serial=2237070C48,soapy=0 --ant 2 -f 935.9M  gsm_capture.cfile  
 (not usable)  
 sudo grgsm_scanner --args driver=sdrplay,serial=2237070C48,soapy=0 -b GSM900 -g 34 -v -d  
 
