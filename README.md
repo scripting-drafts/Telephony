@@ -1,5 +1,5 @@
 # gr-gsm-kali
-# Without Airprobe
+# With grsgsm_capture
   
 Install SDRPlay API and SoapySDR last versions  
   
@@ -31,7 +31,10 @@ sudo python setup.py build
 sudo python setup.py install
 
 ## Follow developer steps https://aerospaceresearch.net/?tag=calibratesdr  
-  
+
+### Usage  
+(get parameters from GQRX)
+sudo grgsm_capture --args driver=sdrplay,serial=2237070C48,soapy=0 --a
   
 ----------------------
 sudo apt-get update && \
