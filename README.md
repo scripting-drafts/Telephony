@@ -1,5 +1,5 @@
-# gr-gsm-kali
-# With grsgsm_capture
+# Packet capture and decoding
+## With grsgsm_capture
   
 Install SDRPlay API and SoapySDR last versions  
   
@@ -22,7 +22,7 @@ cmake ..
 make  
 sudo make install  
 
-
+### Opt
 sudo apt install librtlsdr-dev  
 git clone https://github.com/aerospaceresearch/CalibrateSDR.git \
 cd CalibrateSDR \
