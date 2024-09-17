@@ -34,11 +34,11 @@ sudo python setup.py install
 
 ### Usage  
 (get parameters from GQRX)  
-sudo grgsm_capture --args driver=sdrplay,serial=2237070C48,soapy=0 --ant 2 -f 935.9M  gsm_capture.cfile  
+sudo grgsm_capture --args driver=sdrplay,serial=SERIAL_NUMBER,soapy=0 --ant 2 -f 935.9M  gsm_capture.cfile  
 (not usable)  
-sudo grgsm_scanner --args driver=sdrplay,serial=2237070C48,soapy=0 -b GSM900 -g 34 -v -d  
+sudo grgsm_scanner --args driver=sdrplay,serial=SERIAL_NUMBER,soapy=0 -b GSM900 -g 34 -v -d  
 
-grgsm_livemon --args driver=sdrplay,serial=2237070C48,soapy=0 -f 935.9M
+grgsm_livemon --args driver=sdrplay,serial=SERIAL_NUMBER,soapy=0 -f 935.9M
 sudo wireshark -k -f udp -Y gsmtap -i lo
 
 
